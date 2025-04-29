@@ -1,0 +1,5 @@
+@EndUserText.label: 'Customer Service definition'
+define service ZC_CUSTOMER20SD {
+  expose zC_customer20;
+  expose zC_custaddr20;
+}

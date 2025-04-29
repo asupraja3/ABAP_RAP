@@ -1,0 +1,31 @@
+@Metadata.layer: #CORE
+annotate entity zC_custaddr20
+    with  
+{
+    @UI.facet: [{ id: 'CustAddr',
+ purpose: #STANDARD,
+ label: 'Customer Address',
+ type: #IDENTIFICATION_REFERENCE,
+ position: 10
+ }]
+ 
+ @UI.lineItem: [{ position:10 }]
+  @UI.identification: [{ position: 10 }]
+  Customerno;
+  @UI.lineItem: [{ position:20 }]
+  @UI.identification: [{ position: 20 }]
+  Addressid;
+  @UI.lineItem: [{ position:30 }]
+  @UI.identification: [{ position: 30 }]
+  City;
+  @UI.lineItem: [{ position:40 }]
+  @UI.identification: [{ position: 40 }]
+  District;
+  @UI.lineItem: [{ position:50 }]
+  @UI.identification: [{ position: 50 }]
+  Postalcode;
+  @UI.lineItem: [{ position:60 }]
+  @UI.identification: [{ position: 60 }]
+  Country;
+    
+}
